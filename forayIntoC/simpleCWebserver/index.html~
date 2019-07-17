@@ -1,0 +1,443 @@
+HTTP/1.1 200 OK\r\n
+Content-Type: text/html; charset=UTF-8\r\n\r\n
+<!DOCTYPE html>
+<html>
+<title>Jonathan Hurwitz</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- open sans for readibility -->
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+<style>
+body,h1 {
+  font-family: "Raleway", Arial, sans-serif
+  background: #456990; 
+  height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+
+}
+
+html{
+  height: 100%;
+}
+
+h2, h3, h4{
+  font-family: : "Open Sans";
+}
+h1 {
+  color: white;
+}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+
+img {
+  max-width: 75%;
+  max-height: 75%;
+}
+
+profile{
+  vertical-align: middle;
+}
+
+p{
+  font-family: "Open Sans";
+  font-size: 17px;
+  color: black;
+}
+
+bf{
+  font-size: 180%;
+}
+
+.about{
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.background{
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("IMG1_blur3.jpg");
+    min-height: 100%;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+* {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   outline: none;
+}
+
+body {
+   margin: 0;
+   padding: 30px 0;
+   font-family: 'Roboto', sans-serif;
+   background: #F1F2F6;
+}
+
+h1 {
+   text-align: center;
+   font-weight: 300;
+/*   color: #777*/
+}
+
+h1 span {
+   font-weight: 600;
+}
+
+.container {
+   width: 80%;
+   padding: 50px 0;
+   margin: 50px auto;
+   position: relative;
+   overflow: hidden;
+}
+
+.container:before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 50%;
+   margin-left: -1px;
+   width: 2px;
+   height: 100%;
+   background: #CCD1D9;
+   z-index: 1
+}
+
+.timeline-block {
+   width: -webkit-calc(50% + 8px);
+   width: -moz-calc(50% + 8px);
+   width: calc(50% + 8px);
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -moz-box;
+   display: flex;
+   -webkit-box-pack: justify;
+   -webkit-justify-content: space-between;
+   -moz-box-pack: justify;
+   justify-content: space-between;
+   clear: both;
+}
+
+.timeline-block-right {
+   float: right;
+}
+
+.timeline-block-left {
+   float: left;
+   direction: rtl
+}
+
+.marker {
+   width: 16px;
+   height: 16px;
+   border-radius: 50%;
+   border: 2px solid #F5F7FA;
+   background: #3333ff;
+   margin-top: 10px;
+   z-index: 9999
+}
+
+.timeline-content {
+   width: 95%;
+   padding: 0 15px;
+   color: #666
+}
+
+.timeline-content h3 {
+   margin-top: 5px;
+   margin-bottom: 5px;
+   font-size: 25px;
+   font-weight: 500
+}
+
+.timeline-content span {
+   font-size: 15px;
+   color: #a4a4a4;
+}
+
+.timeline-content p {
+   font-size: 14px;
+   line-height: 1.5em;
+   word-spacing: 1px;
+   color: #888;
+}
+
+
+@media screen and (max-width: 768px) {
+   .container:before {
+      left: 8px;
+      width: 2px;
+   }
+   .timeline-block {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+   .timeline-block-right {
+      float: none;
+   }
+
+   .timeline-block-left {
+      float: none;
+      direction: ltr;
+   }
+}
+
+</style>
+
+<body>
+
+<header class="background w3-display-container w3-center ">
+    <div class="layer">
+    </div>
+    <div class="w3-display-middle w3-text-white" style="padding:48px">
+        <h1>Jonathan Hurwitz</h1>
+          <a href="#about" class="w3-bar-item w3-button">about</a>
+          <a href="#skills" class="w3-bar-item w3-button ">skills</a>
+          <a href="#work" class="w3-bar-item w3-button ">work</a>
+          <a href="http://jonhurwitz.info/RESUME_Jon_Hurwitz.pdf" class="w3-bar-item w3-button">cv</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hide-small">contact</a>
+      </div>
+  
+
+  <!--E<h1 class="w3-large">SOFTWARE | HARDWARE | </h1> -->
+
+  
+</header>
+
+
+
+
+<div class="w3-container" style="padding:64px 16px" id="about">
+  <div class="w3-row-padding w3-left" style="margin-top:50px">
+<!--    <div class="w3-half"> -->
+       <center><img src="/me.png" height=auto width=35%></center>
+<!--    </div> -->
+
+
+<!--    <div class="w3-half"> -->
+         <h2> <center> <bf> About Me </bf> </center> </h2>
+
+
+        <div class="about">
+          <p align="left">
+              I create software, circuits, PCBs, and more. I graduated from UCLA in June 2017 with a B.S. in Computer Engineering. I'm currently back at UCLA getting my M.S. in computer science, with a focus on artificial intelligence and machine learning. 
+              <br>
+              <br>
+              I've been blessed with several chances to work with incredibly gifted innovators at Apple, Tesla, and UCLA. I'm driven by the passion to create systems that are smarter, faster, and more reliable.
+              <br>
+              <br>
+              I'm a bay area native (Los Gatos), and love mountain biking, hiking, climbing, and skiing. In my free time I play the guitar and have recently gotten into photography.
+              <br>
+              <br>
+
+              <center>
+              <div class="w3-container">
+                <div class="w3-half">
+                  <h3><i class="fa fa-github" aria-hidden="true"> </i> </h3>
+                  <a href="https://github.com/jdhurwitz">Github</a>
+                </div> 
+                <div class="w3-half">
+                  <h3><i class="fa fa-sticky-note-o" aria-hidden="true"></i></h3>
+                  <a href="http://jonhurwitz.info/RESUME_Jon_Hurwitz.pdf">Resumé</a>
+                </div>
+              </div>
+              </center>
+
+          </p>
+
+        </div>
+
+        
+<!--    </div>-->
+   
+    
+  </div>
+</div>
+
+
+<div class="w3-container w3-light-grey" style="padding:64px 16px" id="skills">
+  <!--<span class="w3-xxxlarge  w3-hide-small w3-text-black">
+    <center>Skills</center>
+  </span>-->
+  <h2> <center> <bf> Skills </bf> </center> </h2>
+  <p class="w3-center w3-large">Coding, circuits, and things in between.</p>
+
+  <div class="w3-container w3-light-grey w3-padding-16">
+    
+      <div class="w3-col m6" align="center">
+        <h2><center><i class="fa fa-laptop"> </i></center></h2>
+        <h2>Software Engineering</h2>
+        <p class="w3-wide"><i class=" w3-margin-right"></i>C++</p>
+        <p class="w3-wide"><i class=" w3-margin-right"></i>C</p>
+        <p class="w3-wide"><i class=" w3-margin-right"></i>Python</p>
+        <p class="w3-wide"><i class=" w3-margin-right"></i>Verilog</p>
+        <p class="w3-wide"><i class=" w3-margin-right"></i>Perl</p>
+        <p class="w3-wide"><i class=" w3-margin-right"></i>HTML/CSS</p>
+        <p class="w3-wide"><i class=" w3-margin-right"></i>Django</p>
+
+        <br>
+
+        <p class="left w3-large">I love picking up new languages, and have played with Lisp, Prolog, OCaml, and Java.</p>
+
+      </div>
+
+      <div class="w3-col m6" align="center">
+        <h2><center><i class="fa fa-microchip"> </i></center></h2>
+
+        <h2>Hardware Engineering</h2>
+        <p class="w3-wide"><i class=" w3-margin-right"></i>Altium Designer</p>
+        <p class="w3-wide"><i class=" w3-margin-right"></i>Cadence Allegro</p>
+        <p class="w3-wide"><i class=" w3-margin-right"></i>Cadence Virtuoso</p>
+        <p class="w3-wide"><i class=" w3-margin-right"></i>LT Spice</p>
+        <br>
+        <br>
+        <br>
+        <br><br><br>
+        <br>
+        <p class="left w3-large">I'm pretty familiar with all the usual lab equipment, such as oscilloscopes, spectrum analyzers, logic analyzers, and more. I'm totally comfortable soldering down to 0402 size and have done HIL simulations as well as board bring up.</p>
+      </div>
+
+
+    <!--</div>-->
+  </div>
+
+  
+
+
+</div>
+
+<div class="w3-container " style="padding:64px 16px" id="work">
+    <h2> <center> <bf> Work </bf> </center> </h2>
+
+  <p class="w3-center w3-large">Electric cars, computers, watches, and satellites. <br>For a full picture check out my <a href="http://jonhurwitz.info/RESUME_Jon_Hurwitz.pdf">resumé.</a></p>
+
+  <div class="container">
+
+     <div class="timeline-block timeline-block-right">
+        <div class="marker"></div>
+        <div class="timeline-content">
+           <h3>UCLA</h3>
+           <span>Graduate Student (M.S.) until June 2018</span>
+           <p>Studying AI and machine learning because the applications are just awesome. I'm taking more circuits classes as well. In my spare time, I'm working on a couple side projects (stay tuned), one of which involves using two ML models to predict and optimize sleep</p>
+        </div>
+     </div>
+
+     <div class="timeline-block timeline-block-left">
+        <div class="marker"></div>
+        <div class="timeline-content">
+           <h3><a href="https://www.apple.com/watch/">Apple</a></h3>
+           <span>Intern from 6/2017 - 9/2017</span>
+           <p align="left">I worked on the Apple Watch team. Some highlights include learning Perl to characterize charge curves and designing my first flex PCB! I got the chance to design and fab two standard PCBs as well. My "20% time" project involved studying an adaptive charging algorithm to increase battery lifetime and Faraday efficiency of Li-Ion cells</p>
+        </div>
+     </div>
+
+
+     <div class="timeline-block timeline-block-right">
+        <div class="marker"></div>
+        <div class="timeline-content">
+           <h3><a href="https://www.apple.com/macbook-pro/">Apple</a></h3>
+           <span>Intern from 6/2016 - 9/2016</span>
+           <p>My team shipped the <a href="https://www.pcmag.com/review/349093/apple-macbook-pro-15-inch-2016">2016 15" MacBook Pro with Touch Bar</a>. Some favorite memories include identifying a way to reduce battery charge time, evaluating a novel current sense circuit, and traveling to China to support manufacturing ramp. Other tasks included signal level characterization for oscillators, SPI, NAND, and DC-DC converters</p>
+        </div>
+     </div>
+
+     <div class="timeline-block timeline-block-left">
+        <div class="marker"></div>
+        <div class="timeline-content">
+           <h3><a href="https://www.tesla.com">Tesla</a></h3>
+           <span>Intern from 6/2015 - 9/2015</span>
+           <p align="left">I worked on the team that designed the Model S and X on-board charger. I designed a 32-channel relay tester board and wrote the firmware to control it. I also wrote test scripts and packages to automate Model X testing, some of which are still used today</p>
+        </div>
+     </div>
+
+     <div class="timeline-block timeline-block-right">
+        <div class="marker"></div>
+        <div class="timeline-content">
+           <h3><a href="http://elfin.igpp.ucla.edu/mission/">ELFIN Cubesat </a></h3>
+           <span>EE from  5/2014 -  9/2015</span>
+           <p>Electron Losses and Fields Investigation (ELFIN) is a NASA funded 3U CubeSat that will be delivered for launch in 2018. The purpose is to explore relativistic electron losses in the Earth's radiation belts.</p> <p> I designed the 7-output switched mode power supply (SMPS)</p>
+        </div>
+     </div>
+
+     <div class="timeline-block timeline-block-left">
+        <div class="marker"></div>
+        <div class="timeline-content">
+           <h3><a href="http://www.chfe.ee.ucla.edu">The Center for High Frequency Electronics</a></h3>
+           <span>Lab assistant from 9/2013 - 8/2014</span>
+           <p align="left">I performed wafer measurement and dicing, wire bonding, PCB assembly, rework, and photolithography. This was my first chance to interact with wafers and IC packaging</p>
+        </div>
+     </div>
+
+     <div class="timeline-block timeline-block-right">
+        <div class="marker"></div>
+        <div class="timeline-content">
+           <h3><a href="http://www.carmelinst.com">Carmel Instruments</a></h3>
+           <span>Intern from 6/2013 - 9/2013</span>
+           <p>My first foray into EE and programming! I helped with test and verification of time interval analyzers and a MUX. I spent tons of time at the bench soldering, and got the chance to pick up C on the side</p>
+        </div>
+     </div>
+
+
+
+  </div>
+
+</div>
+
+
+<div class="w3-container w3-light-grey" style="padding:64px 16px" id="contact">
+    <h2> <center> <bf> Contact </bf> </center> </h2>
+
+
+  <p align="center">
+      Want to chat? I'd love to hear from you. Here are some ways to get in touch...
+  </p>
+  <center>
+    <h2>
+      <a href="mailto:jdhurwitz@ucla.edu?Subject=Hello!" target="_top"  style="text-decoration:none;">
+      <i class="fa fa-envelope w3-hover-opacity"></i>  Email
+      </a> 
+
+
+     
+    </h2>
+    <h2>
+      <a href="https://twitter.com/jonnyhurwitz"  style="text-decoration:none;"> <i class="fa fa-twitter w3-hover-opacity"></i>  Twitter</a>
+      
+    </h2>
+    <h2>
+          <a href="https://www.linkedin.com/in/jdhurwitz/"  style="text-decoration:none;"><i class="fa fa-linkedin w3-hover-opacity"></i>  LinkedIn</a>
+          
+    </h2>
+  </center>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-center w3-large"> 
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+ 
+</footer>
+
+</body>
+</html>

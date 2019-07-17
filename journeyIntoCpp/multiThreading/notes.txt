@@ -1,0 +1,14 @@
+Two types of Concurrent programming:
+Multiporcessing(MP):
+	Each process has a single thread that communicates throuch interprocess communication channels
+Multithreading(MT):
+	A single process has multiple threads that commuicate through shared memory
+	Pros of MT:
+		fast to start, processes take longer b/c OS needs to devote more resources to starting it 
+		low overhead, processes take more overhead b/c the OS needs to be more careful of one process "stepping" on another
+		MT provides better performance than MP
+	Cons of MT:
+		difficult to implement, lots of issues to take care of
+		cannot be run on a distributed system, MP programs can, so people aruge that MT programs shoudl communicate more like MP programs
+
+A Thread should only be joined or detached once.

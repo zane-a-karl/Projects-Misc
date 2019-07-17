@@ -1,0 +1,19 @@
+Libevent:
+
+	- A library for fast portable nonblocking IO
+	- Should run on basically every useful system you need it
+	- Should run the fastest possible nonblocking IO supported by the sys
+	- Designed to work well  with 10s of thousands of active sockets
+	- The most natural way to write a program in libevent should be the most stable and portable way
+
+*evutil:*
+	- generic functionality to abstract out the differences betw. diff. platforms and networking applications
+
+*event and event_base:*
+      - The heart of libevent
+      - An abstract API for various platform specific, event-based non-blocking IO backends
+      - Can let you know when sockets are ready to read and write, do basic timeout functionality, and detect OS signals
+
+*bufferevent
+      
+	
